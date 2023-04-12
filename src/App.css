@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.app{
+  background-image: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('./Media/Fondo.jpg');
+  background-size: 1000px 1000px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cards-container{
+  width: 1000px;
+  height: 600px;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+.card{
+  display: inline-block;
+  margin: 5px;
+  height: calc(150px - 18px);
+  width: calc(200px - 18px);
+  cursor: pointer;
+  box-shadow:4px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover{
+  transform: scale(0.90);
+
+}
+.card-image{
+  height: calc(150px - 18px);
+  width: calc(200px - 18px);
+
+}
+
+/*----------------- menu start------------*/
+.MenuStart{
+  z-index:2 ;
+  background-color: azure;
+  height: 700px;
+  width:1200px;
+  position: fixed;
+  border-radius: 10px;
+  visibility: visible;
+}
+.MenuStartout{
+  visibility: hidden;
+}
+.Menu{
+  height: 400px;
+  width: 400;
+  position: fixed;
+  align-items: center;
+  border-radius: 8px;
+  background-color:rgba(25, 99, 99, 0.87);
+  margin-left: 400px;
+  margin-top: 150px;
+  
+}
+.X button{
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: rgb(12, 122, 226);
+  color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.493);
+  font-size: 30px;
+}
+.bienvenido{
+  text-align: center; 
+  background-color: rgba(25, 99, 99, 0.651);
+  margin: 5px;
+  
+}
+.bienvenido h2{
+  text-transform: uppercase;
+  size: 100px;
+  background-color: rgba(25, 99, 99, 0.651);
+  color: aliceblue;
+  font-size: 50px;
+  font-style: italic;  
+}
+.bienvenido h3{
+  text-transform: uppercase;
+  size: 100px;
+  background-color: rgba(25, 99, 99, 0.651);
+  color: aliceblue;
+  font-size: 35px;
+  font-style: oblique;
+  
+}
+.start button{
+  background-color: rgb(12, 122, 226);
+  color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.39);
+  margin-left: 130px;
+  margin-top: 30px;
+  font-size: 50px;
+}
+/*-------- menu de victoria-----*/
+.Mv{
+  position: fixed;
+  margin-right: 500px;
+}
+.menuVictoria{
+  z-index:2 ;
+  background-color: azure;
+  height: 700px;
+  width:1200px;
+  position: fixed;
+  border-radius: 10px;
+  visibility: visible;
+}
+.h2halago{
+  text-align: center; 
+  background-color: rgba(25, 99, 99, 0.651);
+  margin: 5px;
+}
+.h2halago h2{
+  text-transform: uppercase;
+  size: 100px;
+  background-color: rgba(25, 99, 99, 0.651);
+  color: aliceblue;
+  font-size: 50px;
+  font-style: italic;  
+}
+.jugardenuevo button{
+  background-color: rgb(12, 122, 226);
+  color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.39);
+  margin-left: 400px;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.cronometro{
+  background-color: black;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 26px;
+}
+
+.menuVictoriao{
+  
+  visibility:hidden;
+}
+.btn{
+  background-color: rgb(13, 141, 226);
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight:500;
+  margin: 10px;
+  box-shadow: 5px solid black;
+}
